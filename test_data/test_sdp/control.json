@@ -1,0 +1,4 @@
+{
+  "num_blocks": 1,
+  "command": "pmp2sdp --precision=664 --input=test_pmp.json --output=test_sdp --outputFormat=json"
+}

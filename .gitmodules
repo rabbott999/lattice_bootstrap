@@ -1,0 +1,3 @@
+[submodule "mp_array"]
+	path = mp_array
+	url = ./mp_array

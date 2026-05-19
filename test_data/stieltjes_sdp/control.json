@@ -1,0 +1,4 @@
+{
+  "num_blocks": 1,
+  "command": "/usr/local/bin/pmp2sdp --precision=668 --outputFormat=json --input=/tmp/tmpveoxlxq7.json --output=/tmp/tmpriisadbo/sdp.json"
+}
