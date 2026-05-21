@@ -1,12 +1,12 @@
 # Introduction
 
-This is a package for producing bounds on spectral functions by solving semi-definite programs (SDPs) derived from moment problems and Nevalinna--Pick interpolation problems. This code was used to generate the numeric examples and figures in (TODO: arxiv link)
+This is a package for producing bounds on spectral functions by solving semi-definite programs (SDPs) derived from moment problems and Nevalinna--Pick interpolation problems. This code was used to generate the numeric examples and figures in <https://arxiv.org/abs/2605.20509>.
 
 # Installation
 
 This package uses [uv](https://docs.astral.sh/uv/getting-started/installation/) for python package management. If uv is installed, running `uv sync` should install the relevant python packages.
 
-Some functionality also depends on an SDPB executable, which can be specified using the environment variable `SDPPY_SDPB_EXE`. For instance,
+Some functionality also depends on an [SDPB](https://github.com/davidsd/sdpb) executable, which can be specified using the environment variable `SDPPY_SDPB_EXE`. For instance,
 
 ```
 SDPPY_SDPB_EXE="/path/to/sdpb" uv run pytest
